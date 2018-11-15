@@ -56,3 +56,4 @@ docs/_build/
 .vscode/
 BoilerPlateFlask/
 node_modules/
+.vscode/

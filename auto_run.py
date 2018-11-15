@@ -1,3 +1,14 @@
+"""This file is the utilty function for starting our Flask
+application and running flask Command Line functions
+
+Attributes:
+    app (object: Flask): Initial Flask Application
+    migrate(Object: Migrate): Contains utility functions for our database
+                                and migrations. refer to the docs for more
+
+"""
+
+
 from app import create_app, db
 from app.models import User
 from app.forms import UserForm

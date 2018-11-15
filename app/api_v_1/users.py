@@ -1,8 +1,8 @@
 from flask import Blueprint, jsonify, request, render_template
 import os
 from app.models import User
-from emails import send_email
-from messages import send_async_sms
+from tasks.emails import send_email
+from tasks.messages import send_async_sms
 from app.forms import UserForm
 import requests
 import os

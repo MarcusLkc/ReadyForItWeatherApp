@@ -5,7 +5,7 @@ with Mailgun.
 """
 import requests
 import os
-from messages import send_sms
+from tasks.messages import send_sms
 from threading import Thread
 
 API_KEY = os.environ.get("MAILGUN_API_KEY")
@@ -28,7 +28,6 @@ def send_simple_message(html, email, subject):
               "text": "Your mail does not support html",
               "html": html})
 
-    print(response.text)
 
 
 def send_email(html, email, subject="Hello"):
