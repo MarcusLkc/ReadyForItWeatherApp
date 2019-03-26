@@ -17,4 +17,4 @@ Here is a live demo during a Snowstorm in New York. The weather tiles show live 
 
 ![readyforitweatherapp](https://user-images.githubusercontent.com/26131181/48578708-69ce8900-e8e8-11e8-9b15-0fbe31e3948b.gif)
 
-App can be viewed on readyforit.us
+App can be viewed on http://readyforit.herokuapp.com/
